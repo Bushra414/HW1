@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['textField'])) {
     foreach ($wordCount as $word => $count) {
         echo "<tr><td>$word</td><td>$count</td></tr>";
     }
-    echo "</table>";NBJHK
+    echo "</table>";
 }
 ?>
 
