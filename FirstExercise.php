@@ -9,8 +9,8 @@ function isBitten() {
 }
 
 if (isBitten()) {
-    echo "Charlie bit your finger!";
+    echo "<span style='color: red'>Charlie bit your finger!</span>";
 } else {
-    echo "Charlie did not bite your finger!";
+    echo "<span style='color: green'>Charlie did not bite your finger!</span>";
 }
 ?>
